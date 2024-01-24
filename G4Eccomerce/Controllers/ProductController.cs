@@ -46,7 +46,7 @@ namespace G4Eccomerce.Controllers
                 var responce = await repository.GetAll(x=>x.CategoryId==catId);
 
                 return Ok(responce);
-            }
+            } 
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
