@@ -16,7 +16,7 @@ namespace G4Eccomerce.Controllers
           
             this.repository = repository;
         }
-
+         
 
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetAll()
